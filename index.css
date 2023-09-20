@@ -1,0 +1,39 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  width: 100px;
+}
+.image2 {
+  width: 100px;
+}
+.heading {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .image1 {
+    width: 300px;
+  }
+  .image2 {
+    width: 300px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
